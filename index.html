@@ -1338,7 +1338,7 @@ tbody tr:hover { background: var(--cream); }
 .brand-gallery {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: 200px;
+  grid-auto-rows: 240px;
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -1369,8 +1369,8 @@ tbody tr:hover { background: var(--cream); }
   font-weight: 700;
   font-size: .95rem;
 }
-.brand-photo.large { grid-column: span 6; grid-row: span 2; }
-.brand-photo.medium { grid-column: span 6; grid-row: span 1; }
+.brand-photo.large { grid-column: span 8; grid-row: span 2; }
+.brand-photo.medium { grid-column: span 4; grid-row: span 1; }
 .brand-photo.small { grid-column: span 4; grid-row: span 1; }
 .brand-photo.tall { grid-column: span 4; grid-row: span 2; }
 .brand-photo-placeholder {
@@ -2731,7 +2731,7 @@ tbody tr:hover { background: var(--cream); }
         <p class="phase-subtitle">افتتاح فروع جديدة في مناطق ذات كثافة سكانية وقوة شرائية</p>
         <ul class="phase-items">
           <li>افتتاح 3-5 فروع جديدة في القاهرة الكبرى</li>
-          <li>دخول 6 أكتوبر، التجمع الخامس، الشيخ زايد</li>
+          <li>دخول 6 أكتوبر، العبور، المعادي</li>
           <li>توسيع نطاق خدمة الدليفري لمناطق إضافية</li>
           <li>حملات تسويقية مكثفة على السوشيال (192K فعلاً موجودين)</li>
           <li>شراكات مع تطبيقات التوصيل بشروط محسّنة</li>
@@ -2777,19 +2777,14 @@ tbody tr:hover { background: var(--cream); }
 
       <div class="expansion-targets">
         <div class="expansion-target">
-          <div class="expansion-target-name">🏙️ التجمع الخامس</div>
-          <div class="expansion-target-area">القاهرة الجديدة</div>
-          <div class="expansion-target-badge">أولوية أولى</div>
-        </div>
-        <div class="expansion-target">
           <div class="expansion-target-name">🏘️ 6 أكتوبر</div>
           <div class="expansion-target-area">الجيزة الجديدة</div>
           <div class="expansion-target-badge">أولوية أولى</div>
         </div>
         <div class="expansion-target">
-          <div class="expansion-target-name">🌳 الشيخ زايد</div>
-          <div class="expansion-target-area">الجيزة</div>
-          <div class="expansion-target-badge">أولوية ثانية</div>
+          <div class="expansion-target-name">🏙️ العبور</div>
+          <div class="expansion-target-area">القاهرة الكبرى</div>
+          <div class="expansion-target-badge">أولوية أولى</div>
         </div>
         <div class="expansion-target">
           <div class="expansion-target-name">🏗️ المعادي</div>
@@ -2974,6 +2969,610 @@ tbody tr:hover { background: var(--cream); }
     </div>
   </div>
 </section>
+
+
+
+<!-- ASSETS -->
+<section id="assets">
+  <div class="section-header">
+    <div class="section-eyebrow">Fixed Assets</div>
+    <h2 class="section-title">الأصول <span class="section-title-gradient">الثابتة</span></h2>
+    <p class="section-subtitle">المعدات والتجهيزات المملوكة بقيمتها السوقية الحالية (بعد الإهلاك)</p>
+  </div>
+
+  <!-- HERO TOTAL -->
+  <div style="background: linear-gradient(135deg, var(--darker) 0%, var(--primary-darker) 100%); color: white; border-radius: 28px; padding: 3rem 2rem; margin-bottom: 2.5rem; text-align: center; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: -50%; right: -10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(234, 126, 28, 0.25), transparent 70%); border-radius: 50%;"></div>
+    <div style="position: relative; z-index: 1;">
+      <div style="font-size: .9rem; opacity: .8; letter-spacing: 3px; font-weight: 800; margin-bottom: .8rem;">💎 إجمالي الأصول الثابتة</div>
+      <div style="font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900; background: linear-gradient(135deg, #FFB066, #FFFFFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; margin-bottom: .5rem;">1,160,700 <span style="font-size: 1.5rem;">ج.م</span></div>
+      <div style="font-size: 1.05rem; opacity: .85; margin-top: 1rem;">القيمة السوقية الحالية بعد الإهلاك — Today's Selling Price</div>
+      <div style="font-size: .9rem; opacity: .7; margin-top: .5rem;">43 أصل مُجرَّد عبر فرعين (مدينة نصر + الهرم)</div>
+    </div>
+  </div>
+
+  <!-- BRANCH SUMMARY CARDS -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.3rem; margin-bottom: 2.5rem;">
+    
+    <div style="background: white; border-radius: 18px; padding: 1.6rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--primary); text-align: center;">
+      <div style="font-size: 2.4rem; margin-bottom: .6rem;">🏬</div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .8rem; font-size: 1.15rem;">مدينة نصر</h3>
+      <div style='font-size: 2rem; color: var(--primary); font-weight: 900;'>688,700 <span style='font-size: 1rem; font-weight:700;'>ج.م</span></div>
+      <div style="color: var(--gray); margin-top: .4rem; font-size: .9rem;">24 أصل</div>
+    </div>
+    
+    <div style="background: white; border-radius: 18px; padding: 1.6rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--gold); text-align: center;">
+      <div style="font-size: 2.4rem; margin-bottom: .6rem;">🏬</div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .8rem; font-size: 1.15rem;">الهرم</h3>
+      <div style='font-size: 2rem; color: var(--gold); font-weight: 900;'>847,000 <span style='font-size: 1rem; font-weight:700;'>ج.م</span></div>
+      <div style="color: var(--gray); margin-top: .4rem; font-size: .9rem;">19 أصل</div>
+    </div>
+    
+    <div style="background: white; border-radius: 18px; padding: 1.6rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--blue); text-align: center;">
+      <div style="font-size: 2.4rem; margin-bottom: .6rem;">🏬</div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .8rem; font-size: 1.15rem;">مصر الجديده</h3>
+      <div style='font-size: 1.6rem; color: var(--gray); font-weight: 800;'>—</div>
+      <div style="color: var(--gray); margin-top: .4rem; font-size: .9rem;">في انتظار الجرد</div>
+    </div>
+    
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab-btn assets-tab active" data-assets-tab="nasr">🏬 مدينة نصر</button>
+      <button class="tab-btn assets-tab " data-assets-tab="haram">🏬 الهرم</button>
+      <button class="tab-btn assets-tab " data-assets-tab="gesr">🏬 مصر الجديده</button>
+  </div>
+  <div class="tab-content assets-tab-content active" id="assets-tab-nasr">
+    <div style="overflow-x:auto; border-radius: 18px; box-shadow: var(--shadow-sm); background: white;">
+      <table style="width:100%; border-collapse: collapse; min-width: 720px;">
+        <thead>
+          <tr style="background: linear-gradient(135deg, var(--primary), var(--primary-light)); color:white;">
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">المعدة</th>
+            <th style="padding: .9rem 1rem; text-align: center; font-weight: 800;">الكمية</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الماركة</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الوصف</th>
+            <th style="padding: .9rem 1rem; text-align: left; font-weight: 800;">القيمة الحالية</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الحالة</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style='font-weight:700; color: var(--dark);'>تلاجه كولا</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>تلاجه واحد باب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>10,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله ضعيفه</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>دولاب هيتر</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>تصنيع</td><td style='color: var(--gray); font-size: .85rem;'>دولاب 4 رفوف 1.5*1</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>12,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل 2 هيتر من 4</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>كمبيوتر</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>—</td><td style='color: var(--gray); font-size: .85rem;'>شاشه 20 بوصه</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>7,500 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>شاشه20</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>dell</td><td style='color: var(--gray); font-size: .85rem;'>شاشه 20 بوصه</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>1,200 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>شاشه 55</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>haier</td><td style='color: var(--gray); font-size: .85rem;'>شاشه اسمارت 55 بوصه</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>60,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>درج كاشير حديد</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>deluxe</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>1,500 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>برنتر</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>red pos</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>3,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>دمب اساشين</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>دمب استايشن 2 رفوف سفلي و لمبه حراري</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>10,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ساون سيستم</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>master</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>1,500 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>كابينه حفظ</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>45,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ترابيزه بيكب</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>ترابيزه 1.2 اسانتلس سفلي</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>15,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ترابيزه تحضير</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>ترابيزه 1.6 رف سفلي</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>15,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>بان ماريه</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>8,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>توستر ساندوتش.</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>—</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>3,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>قلايه بطاطس</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>قلايه بطاطس 2 عين 20كيلو زيت في العين</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>30,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>لا تعمل</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>فراي ماستر</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>line steel</td><td style='color: var(--gray); font-size: .85rem;'>اتنين قلايه فرايد اتشيكن 35كيلو 1 كهرباء والتاني غاز</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>300,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ترابيزه بريتنج</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>ترابيزه بريدن 1.2 +اتنين حوض دقيق 25 كيلو</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>12,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>تلاجه 48 اتنين باب</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>تلاجه اتنين باب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>45,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله ضعيفه</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>تلاجه ميك</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>تلاجه ميك 2 باب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>25,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>حوض ثنائي</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>15,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>استاند حوض</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>12,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>استاند باكنج</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>4,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ديب فريزر صغير</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>محلي</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>3,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله ضعيفه بسبب الزجاج ضعيف جدا</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ديب فريزر  2.1</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>الماني</td><td style='color: var(--gray); font-size: .85rem;'>ديب فبريزر 2.2</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>50,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>يعمل بي حاله جيدا</td></tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+      <div class="tab-content assets-tab-content " id="assets-tab-haram">
+    <div style="overflow-x:auto; border-radius: 18px; box-shadow: var(--shadow-sm); background: white;">
+      <table style="width:100%; border-collapse: collapse; min-width: 720px;">
+        <thead>
+          <tr style="background: linear-gradient(135deg, var(--primary), var(--primary-light)); color:white;">
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">المعدة</th>
+            <th style="padding: .9rem 1rem; text-align: center; font-weight: 800;">الكمية</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الماركة</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الوصف</th>
+            <th style="padding: .9rem 1rem; text-align: left; font-weight: 800;">القيمة الحالية</th>
+            <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الحالة</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style='font-weight:700; color: var(--dark);'>دامب ستيشن</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Line steel</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>10,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>كابينه حفظ</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Line steel</td><td style='color: var(--gray); font-size: .85rem;'>دورين / 4 ابواب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>50,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>قلايه اساسنسير</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>Line steel</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>300,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>فراي ماستر</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Line steel</td><td style='color: var(--gray); font-size: .85rem;'>عين واحده</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>75,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ميك تابول</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>KAZ</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>30,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>برديدنج</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Line steel</td><td style='color: var(--gray); font-size: .85rem;'>بدون ماتور</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>12,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>توستر عيش توست</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>ROMA</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>3,500 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>بان ماري</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>KARIZMA</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>8,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>فريزر تجميد</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Williams</td><td style='color: var(--gray); font-size: .85rem;'>باب واحد</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>30,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>تلاجه تبريد</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>Williams</td><td style='color: var(--gray); font-size: .85rem;'>2 باب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>48,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>فريزر تجميد</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>AHT</td><td style='color: var(--gray); font-size: .85rem;'>2 باب</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>50,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>توستر عيش بريوش</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>SHM11</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>3,500 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>تكيف</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>CARRIER</td><td style='color: var(--gray); font-size: .85rem;'>4 حصان</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>75,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>هود</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>—</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>45,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>جهاز كومبيوتر</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>LENOVO</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>7,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>جهاز كومبيوتر</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>HP</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>7,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>برنتر</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>Xprinter</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>7,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>شاشه عرض</td><td style='text-align:center;'>2</td><td style='color: var(--gray);'>SAMSUNG</td><td style='color: var(--gray); font-size: .85rem;'>49</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>80,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+<tr><td style='font-weight:700; color: var(--dark);'>ستاره هواء</td><td style='text-align:center;'>1</td><td style='color: var(--gray);'>AIR MASTER</td><td style='color: var(--gray); font-size: .85rem;'>—</td><td style='text-align:left; font-weight:700; color: var(--primary-dark);'>6,000 ج.م</td><td style='color: var(--gray); font-size: .82rem;'>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+      <div class="tab-content assets-tab-content " id="assets-tab-gesr">
+        <div style="text-align:center; padding: 3rem 1.5rem; background: var(--cream); border-radius: 18px; border: 2px dashed var(--primary);">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">📋</div>
+          <h4 style="font-weight: 900; color: var(--primary-dark); margin-bottom: .6rem;">لم يتم الجرد بعد</h4>
+          <p style="color: var(--gray); max-width: 480px; margin: 0 auto;">فرع <strong>مصر الجديده</strong> (جسر السويس) في انتظار جرد المعدات الثابتة. سيتم تحديث القيمة في الإصدار القادم من التقرير.</p>
+        </div>
+        </div>
+
+  <!-- NOTE -->
+  <div style="margin-top: 2rem; background: linear-gradient(135deg, #FFF5EA, white); border-right: 5px solid var(--gold); border-radius: 18px; padding: 1.5rem; box-shadow: var(--shadow-sm);">
+    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+      <div style="font-size: 1.8rem;">📌</div>
+      <div>
+        <div style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">ملاحظة هامة</div>
+        <div style="color: var(--gray); line-height: 1.7;">
+          القيم الموضحة <strong style="color: var(--primary-dark);">بعد الإهلاك</strong> — تمثل السعر السوقي للأصول لو تم بيعها اليوم.
+          فرع <strong style="color: var(--primary-dark);">مصر الجديده (جسر السويس)</strong> لم يتم جرده بعد، وتقدير المعدات فيه يُضيف قيمة إضافية للأصول الإجمالية ستظهر في التحديث القادم.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ORG CHART -->
+<section id="team">
+  <div class="section-header">
+    <div class="section-eyebrow">Organizational Structure</div>
+    <h2 class="section-title">الهيكل <span class="section-title-gradient">الإداري</span></h2>
+    <p class="section-subtitle">فريق متكامل من 28 عضو يدير العمليات والإنتاج عبر الفروع الثلاثة</p>
+  </div>
+
+  <!-- HERO STATS -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.3rem; margin-bottom: 3rem;">
+    <div style="background: linear-gradient(135deg, var(--darker), var(--primary-darker)); color: white; border-radius: 22px; padding: 2rem 1.5rem; text-align: center; box-shadow: var(--shadow-lg);">
+      <div style="font-size: 2.5rem; margin-bottom: .5rem;">👥</div>
+      <div style="font-size: 3rem; font-weight: 900; line-height: 1;">28</div>
+      <div style="opacity: .85; margin-top: .5rem; font-weight: 700;">إجمالي الموظفين والخدمات الخارجية</div>
+    </div>
+    <div style="background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; border-radius: 22px; padding: 2rem 1.5rem; text-align: center; box-shadow: var(--shadow-lg);">
+      <div style="font-size: 2.5rem; margin-bottom: .5rem;">💰</div>
+      <div style="font-size: 2.6rem; font-weight: 900; line-height: 1;">348,000</div>
+      <div style="opacity: .9; margin-top: .5rem; font-weight: 700;">إجمالي الرواتب الشهرية (ج.م)</div>
+    </div>
+    <div style="background: white; border-radius: 22px; padding: 2rem 1.5rem; text-align: center; box-shadow: var(--shadow); border: 2px solid var(--primary);">
+      <div style="font-size: 2.5rem; margin-bottom: .5rem;">🏢</div>
+      <div style="font-size: 2.6rem; font-weight: 900; line-height: 1; color: var(--primary);">6</div>
+      <div style="color: var(--gray); margin-top: .5rem; font-weight: 700;">إدارات وفروع</div>
+    </div>
+    <div style="background: white; border-radius: 22px; padding: 2rem 1.5rem; text-align: center; box-shadow: var(--shadow); border: 2px solid var(--green);">
+      <div style="font-size: 2.5rem; margin-bottom: .5rem;">⭐</div>
+      <div style="font-size: 2.6rem; font-weight: 900; line-height: 1; color: var(--green);">20</div>
+      <div style="color: var(--gray); margin-top: .5rem; font-weight: 700;">موظف بخبرة (قديم)</div>
+    </div>
+  </div>
+
+  <!-- VISUAL ORG TREE -->
+  <div style="background: linear-gradient(135deg, var(--light-bg), var(--cream)); border-radius: 24px; padding: 2.5rem 1.5rem; margin-bottom: 2.5rem; box-shadow: var(--shadow-sm);">
+    <h3 style="text-align: center; font-weight: 900; color: var(--dark); margin-bottom: 2rem; font-size: 1.3rem;">📊 الشجرة التنظيمية</h3>
+
+    <div style="display:flex; flex-direction:column; align-items:center; gap: 1.5rem;">
+
+      <!-- Level 1: CEO/Founder -->
+      <div style="background: linear-gradient(135deg, var(--darker), var(--primary-darker)); color: white; padding: 1.2rem 2rem; border-radius: 18px; text-align: center; box-shadow: var(--shadow-lg); min-width: 240px;">
+        <div style="font-size: .8rem; opacity: .8; letter-spacing: 2px;">FOUNDER & CEO</div>
+        <div style="font-weight: 900; font-size: 1.2rem; margin-top: .3rem;">إدارة عليا</div>
+      </div>
+
+      <!-- Connector -->
+      <div style="width: 2px; height: 30px; background: var(--primary);"></div>
+
+      <!-- Level 2: Operations Director -->
+      <div style="background: linear-gradient(135deg, var(--primary-darker), var(--primary)); color: white; padding: 1rem 1.8rem; border-radius: 16px; text-align: center; box-shadow: var(--shadow); min-width: 220px;">
+        <div style="font-size: .75rem; opacity: .85; letter-spacing: 2px;">OPERATIONS DIRECTOR</div>
+        <div style="font-weight: 900; font-size: 1.05rem; margin-top: .2rem;">هشام محمد إبراهيم</div>
+        <div style="font-size: .8rem; opacity: .9; margin-top: .2rem;">مدير التشغيل</div>
+      </div>
+
+      <!-- Connector -->
+      <div style="width: 2px; height: 30px; background: var(--primary);"></div>
+
+      <!-- Level 3: 3 Lines (Production + Branches + External) -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; width: 100%; max-width: 1000px;">
+        <div style="background: white; border: 2px solid var(--primary); border-radius: 16px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.5rem;">👨‍🍳</div>
+          <div style="font-weight: 900; color: var(--primary-dark); margin-top: .4rem;">إدارة الإنتاج</div>
+          <div style="font-size: .8rem; color: var(--gray); margin-top: .2rem;">Central Kitchen</div>
+          <div style="font-size: .85rem; color: var(--dark); margin-top: .5rem; font-weight: 700;">5 موظفين</div>
+        </div>
+        <div style="background: white; border: 2px solid var(--primary-light); border-radius: 16px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.5rem;">🏬</div>
+          <div style="font-weight: 900; color: var(--primary-dark); margin-top: .4rem;">إدارة الفروع</div>
+          <div style="font-size: .8rem; color: var(--gray); margin-top: .2rem;">3 فروع</div>
+          <div style="font-size: .85rem; color: var(--dark); margin-top: .5rem; font-weight: 700;">19 موظف</div>
+        </div>
+        <div style="background: white; border: 2px solid var(--gray); border-radius: 16px; padding: 1rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.5rem;">🤝</div>
+          <div style="font-weight: 900; color: var(--primary-dark); margin-top: .4rem;">خدمات خارجية</div>
+          <div style="font-size: .8rem; color: var(--gray); margin-top: .2rem;">Outsourced</div>
+          <div style="font-size: .85rem; color: var(--dark); margin-top: .5rem; font-weight: 700;">3 شركات</div>
+        </div>
+      </div>
+
+      <!-- Branches Level -->
+      <div style="width: 2px; height: 30px; background: var(--primary-light);"></div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: .8rem; width: 100%; max-width: 800px;">
+        <div style="background: var(--primary); color: white; border-radius: 12px; padding: .8rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-weight: 900;">مدينة نصر</div>
+          <div style="font-size: .8rem; opacity: .9;">11 موظف</div>
+        </div>
+        <div style="background: var(--blue); color: white; border-radius: 12px; padding: .8rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-weight: 900;">مصر الجديده</div>
+          <div style="font-size: .8rem; opacity: .9;">7 موظفين</div>
+        </div>
+        <div style="background: var(--gold); color: white; border-radius: 12px; padding: .8rem; text-align: center; box-shadow: var(--shadow-sm);">
+          <div style="font-weight: 900;">الهرم</div>
+          <div style="font-size: .8rem; opacity: .9;">1 موظف (يحتاج توسيع)</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- DEPARTMENT CARDS -->
+  <h3 style="font-weight: 900; color: var(--dark); margin: 2rem 0 1.2rem; font-size: 1.25rem; text-align: center;">📋 الإدارات والفروع — التفاصيل المالية</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.3rem; margin-bottom: 3rem;">
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--primary-darker);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">👔</div>
+        <div style="background: var(--primary-darker); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">1 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">إدارة التشغيل</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--primary-darker);">30,000 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--primary);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">👨‍🍳</div>
+        <div style="background: var(--primary); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">5 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">إدارة الإنتاج (Central Kitchen)</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--primary);">72,500 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--primary-light);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">🏬</div>
+        <div style="background: var(--primary-light); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">11 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">فرع مدينة نصر</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--primary-light);">90,500 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--blue);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">🏬</div>
+        <div style="background: var(--blue); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">7 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">فرع مصر الجديده</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--blue);">59,000 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--gold);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">🏬</div>
+        <div style="background: var(--gold); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">1 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">فرع الهرم</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--gold);">7,000 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+    <div style="background: white; border-radius: 20px; padding: 1.5rem; box-shadow: var(--shadow-sm); border-top: 5px solid var(--gray);">
+      <div style="display:flex; align-items:center; justify-content: space-between; margin-bottom: 1rem;">
+        <div style="font-size: 2rem;">🤝</div>
+        <div style="background: var(--gray); color: white; padding: .3rem .8rem; border-radius: 99px; font-size: .75rem; font-weight: 800;">3 موظف</div>
+      </div>
+      <h3 style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">خدمات خارجية (Outsourced)</h3>
+      <div style="font-size: 1.5rem; font-weight: 900; color: var(--gray);">89,000 <span style="font-size: .85rem; color: var(--gray);">ج.م/شهر</span></div>
+      <div style="font-size: .8rem; color: var(--gray); margin-top: .3rem;">إجمالي الرواتب الشهرية</div>
+    </div>
+    
+  </div>
+
+  <!-- HIRING NOTE -->
+  <div style="background: linear-gradient(135deg, #FFF8E8, white); border-right: 5px solid var(--gold); border-radius: 18px; padding: 1.5rem; box-shadow: var(--shadow-sm); margin-bottom: 2.5rem;">
+    <div style="display: flex; gap: 1rem; align-items: flex-start;">
+      <div style="font-size: 1.8rem;">⚡</div>
+      <div>
+        <div style="font-weight: 900; color: var(--dark); margin-bottom: .4rem; font-size: 1.05rem;">فرصة توظيف — فرع الهرم</div>
+        <div style="color: var(--gray); line-height: 1.7;">
+          فرع <strong style="color: var(--primary-dark);">الهرم</strong> يعمل حالياً بفريق محدود (يعتمد على إدارة Central Kitchen وشركة الديليفري الخارجية).
+          توظيف فريق إضافي للفرع يُعتبر <strong style="color: var(--primary-dark);">فرصة نمو فورية</strong> لزيادة الطاقة التشغيلية والإيرادات.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FULL STAFF TABLE -->
+  <h3 style="font-weight: 900; color: var(--dark); margin-bottom: 1.2rem; font-size: 1.25rem; text-align: center;">👥 قائمة الفريق الكاملة</h3>
+  <div style="overflow-x: auto; border-radius: 18px; box-shadow: var(--shadow-sm); background: white;">
+    <table style="width:100%; border-collapse: collapse; min-width: 720px;">
+      <thead>
+        <tr style="background: linear-gradient(135deg, var(--darker), var(--primary-darker)); color: white;">
+          <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الاسم</th>
+          <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الدور</th>
+          <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الإدارة / الفرع</th>
+          <th style="padding: .9rem 1rem; text-align: right; font-weight: 800;">الحالة</th>
+          <th style="padding: .9rem 1rem; text-align: left; font-weight: 800;">إجمالي الراتب</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">هشام محمد إبراهيم مدبولي</td>
+      <td style="color: var(--gray);">مدير تشغيل</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة التشغيل</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">30,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">محمد عبد النور عرفه محمد صبيح</td>
+      <td style="color: var(--gray);">شيف عمومي</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة الإنتاج</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">25,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">أحمد سامي إبراهيم حسن محمد</td>
+      <td style="color: var(--gray);">مدير مشتريات</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة الإنتاج</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">13,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">السيد عبدالله متولي عبد المقصود</td>
+      <td style="color: var(--gray);">شيف إنتاج أول</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة الإنتاج</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">15,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">حازم سيد رجب سيد أحمد</td>
+      <td style="color: var(--gray);">شيف إنتاج ثان</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة الإنتاج</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">13,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">إبراهيم محمود عبد الرحيم عويس</td>
+      <td style="color: var(--gray);">مساعد شيف</td>
+      <td style="color: var(--gray); font-size: .9rem;">إدارة الإنتاج</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">6,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">احمد محمد احمد احمد خليل</td>
+      <td style="color: var(--gray);">مساعد مدير</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">12,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">كريم محسن يونس العربي</td>
+      <td style="color: var(--gray);">مساعد مدير</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">12,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">ربيع محمد ربيع علي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">بسمله اشرف زايد عثمان</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">سامي ماركو  سامي يونان</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">محمد اشرف ابو يزيد عفيفي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">محمد عصام عبدالله علي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">يوسف محمد احمد سيد</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--blue); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف جديد</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">خالد محمد رجب علي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--blue); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف جديد</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">احمد محمد رجب علي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--blue); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف جديد</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">عمرو محمود محمد البسيونى</td>
+      <td style="color: var(--gray);">مساعد مدير</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">12,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">يوسف ابراهيم محمد ابراهيم</td>
+      <td style="color: var(--gray);">سوبر فايزر</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">10,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">كنوز سيد حسين الضوي</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">ابراهيم دسوقى احمد محمد</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">عمر هشام حسن احمد</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">احمد صفا عبد الرحيم  حسين</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,500 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">بيشوي كمال عدلي عزيز</td>
+      <td style="color: var(--gray);">عضو فريق</td>
+      <td style="color: var(--gray); font-size: .9rem;">مصر الجديده</td>
+      <td><span style="background: var(--green); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">موظف قديم</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">شركة الديليفري</td>
+      <td style="color: var(--gray);">—</td>
+      <td style="color: var(--gray); font-size: .9rem;">مدينة نصر</td>
+      <td><span style="background: var(--gray); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">—</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">8,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">شركة الديليفري</td>
+      <td style="color: var(--gray);">—</td>
+      <td style="color: var(--gray); font-size: .9rem;">الهرم</td>
+      <td><span style="background: var(--gray); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">—</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">7,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">شركة الصيانه</td>
+      <td style="color: var(--gray);">—</td>
+      <td style="color: var(--gray); font-size: .9rem;">خدمات خارجية</td>
+      <td><span style="background: var(--gray); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">—</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">10,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">شركة النقل</td>
+      <td style="color: var(--gray);">—</td>
+      <td style="color: var(--gray); font-size: .9rem;">خدمات خارجية</td>
+      <td><span style="background: var(--gray); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">—</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">34,000 ج.م</td>
+    </tr>
+    
+    <tr>
+      <td style="font-weight:700; color: var(--dark);">شركة الكول سنتر</td>
+      <td style="color: var(--gray);">—</td>
+      <td style="color: var(--gray); font-size: .9rem;">خدمات خارجية</td>
+      <td><span style="background: var(--gray); color: white; padding: .2rem .7rem; border-radius: 99px; font-size: .75rem; font-weight: 700;">—</span></td>
+      <td style="text-align:left; font-weight: 800; color: var(--primary-dark);">45,000 ج.م</td>
+    </tr>
+    
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Closing insight -->
+  <div style="margin-top: 2.5rem; background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; border-radius: 24px; padding: 2.5rem 2rem; text-align: center; box-shadow: var(--shadow-lg);">
+    <div style="font-size: .9rem; opacity: .9; letter-spacing: 2px; font-weight: 800; margin-bottom: .8rem;">💡 ميزة تنافسية</div>
+    <h3 style="font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 900; line-height: 1.5; max-width: 800px; margin: 0 auto;">
+      فريق <strong>متخصص ومدرّب</strong> بنسبة <strong>71%</strong> من الموظفين القُدامى —
+      جاهز للتوسع دون الحاجة لإعادة بناء الكوادر التشغيلية
+    </h3>
+  </div>
+</section>
+
+<!-- ASSETS TAB SCRIPT -->
+<script>
+(function() {
+  document.querySelectorAll('.assets-tab').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.assets-tab').forEach(function(b) { b.classList.remove('active'); });
+      document.querySelectorAll('.assets-tab-content').forEach(function(c) { c.classList.remove('active'); });
+      btn.classList.add('active');
+      var target = btn.getAttribute('data-assets-tab');
+      var pane = document.getElementById('assets-tab-' + target);
+      if (pane) pane.classList.add('active');
+    });
+  });
+})();
+</script>
 
 
 <!-- DETAILS -->
